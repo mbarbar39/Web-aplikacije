@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proizvod s opisom i video</title>
+    <style>
+        .proizvod {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .proizvod img {
+            width: 50%;
+            height: auto;
+            margin-right: 1%;
+        }
+
+        .opis {
+            width: 50%; 
+        }
+
+        .video {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="proizvod">
+        <img src="C:\Users\Marija Barbarić\Downloads\pinkpanda.jpg" alt="Maybelline New York Instant Perfector 4u1 Glow 02 Medium">
+        <div class="opis">
+            <h2>Maybelline New York Instant Perfector 4u1 Glow 02 Medium</h2>
+            <p>Ovaj proizvod kombinira četiri funkcije u jednom: korektor, highlighter, primer i hidratantnu kremu. Pruža prirodan sjaj i ujednačava ton kože.</p>
+        </div>
+    </div>
+    <div class="video">
+        <h3>Kako koristiti Maybelline Instant Perfector</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6O0WaUSfFV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
