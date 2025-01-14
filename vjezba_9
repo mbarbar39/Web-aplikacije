@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primjer Videa</title>
+</head>
+<body>
+
+    <h1>Primjer koristenja video elementa i iframea</h1>
+
+    <!-- Video element sa lokalnim fajlom -->
+    <h2>Lokalni video vatre</h2>
+    <video width="650" controls>
+        <source src="20250114_183105.mp4" type="video/mp4">
+        Vaš preglednik ne podržava HTML5 video.
+    </video>
+
+    <br><br>
+
+    <!-- YouTube video putem iframea -->
+    <h2>Video sa YouTube-a </h2>
+    <iframe width="650" height="400" src="https://www.youtube.com/watch?v=tH4I1fnYq8U" 
+    title="Makeup tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+</body>
+</html>
