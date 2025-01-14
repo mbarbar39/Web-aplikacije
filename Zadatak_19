@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARQ Collection</title>
+  <style>
+    body {
+      margin: 0; font-family: Arial, sans-serif; color: #333; line-height: 1.6;
+    }
+    .header, .footer {
+      background: #333; color: #fff; text-align: center; padding: 10px 0;
+    }
+    .header h1, .nav a {
+      margin: 0; color: #fff; text-decoration: none;
+    }
+    .nav { margin-top: 10px; }
+    .nav a { margin: 0 15px; }
+    .hero img { width: 100%; height: auto; }
+    .products { text-align: center; padding: 20px 0; }
+    .product-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;
+    }
+    .product {
+      border: 1px solid #ddd; border-radius: 8px; padding: 20px; background: #fff;
+    }
+    .product img { width: 100%; border-radius: 4px; }
+    .price { font-weight: bold; color: #000; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>MARQ® TOOL WATCH COLLECTION</h1>
+    <nav class="nav">
+      <a href="#">Homepage</a>
+      <a href="#">Articles</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="C:/Users/Marija Barbarić/Downloads/ggarmi.jpg" alt="MARQ Collection">
+  </section>
+
+  <section class="products">
+    <h2>Luxury Smartwatches</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="C:/Users/Marija Barbarić/Downloads/cf-xl.webp" alt="MARQ Adventurer">
+        <h3>MARQ Adventurer</h3>
+        <p>Najbolji za pustolovine i istraživanja.</p>
+        <p class="price">Cijena: 2.500,00 €</p>
+      </div>
+      <div class="product">
+        <img src="C:/Users/Marija Barbarić/Downloads/cf-lg.webp" alt="MARQ Athlete">
+        <h3>MARQ Athlete</h3>
+        <p>Za sportaše i optimalne performanse.</p>
+        <p class="price">Cijena: 2.700,00 €</p>
+      </div>
+      <div class="product">
+        <img src="C:/Users/Marija Barbarić/Downloads/cf-lg (1).webp" alt="MARQ Aviator">
+        <h3>MARQ Aviator</h3>
+        <p>Inspiriran avijacijom i letenjem.</p>
+        <p class="price">Cijena: 2.800,00 €</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 MARQ Collection</p>
+  </footer>
+</body>
+</html>
