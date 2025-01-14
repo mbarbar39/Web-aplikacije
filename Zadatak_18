@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šminka</title>
+    <style>
+        h1 {
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px grey;
+            text-align: center;
+        }
+
+        h1:hover {
+            text-shadow: 3px 3px 10px red;
+        }
+
+        p.first {
+            letter-spacing: 2px;
+            word-spacing: 7px;
+            text-indent: 50px;
+        }
+
+        p.second {
+            line-height: 20px;
+            text-indent: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Šminka - Umjetnost</h1>
+
+    <p class="first">
+        Šminka je alat za isticanje ljepote i kreativnosti. Pomoću nje možete naglasiti oči, usne i kožu. Razni proizvodi poput pudera, maskare i sjenila omogućuju različite tehnike i stilove.
+    </p>
+
+    <p class="second">
+        Šminka nije samo prekrivanje nesavršenosti; ona je i način izražavanja samopouzdanja i osobnosti. Kvalitetni proizvodi ključni su za postizanje najboljeg efekta.
+    </p>
+
+</body>
+</html>
